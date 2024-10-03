@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+/* Estilos generales para centrar el contenido */
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente si es necesario */
+    min-height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
+    background-color: black; /* Fondo oscuro para un efecto tétrico */
+    padding: 20px;
+  }
+  
+  /* Estilo tétrico para el título */
+  .titulo-tetrico {
+    font-family: 'Creepster', cursive; /* Fuente que da un aspecto tétrico */
+    font-size: 48px;
+    color: red;
+    text-shadow: 4px 4px 10px black, -4px -4px 10px black; /* Sombra para dar profundidad */
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  
+  /* Estilo para el reproductor de video */
+  .video-container iframe {
+    border: 5px solid red; /* Borde rojo alrededor del video */
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.7); /* Sombra roja para efecto tétrico */
+    width: 600px; /* Ancho del video */
+    height: 340px; /* Alto del video */
+  }
+  
